@@ -4,12 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="./assets/styles.css"></link>
-
-    
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles.css"></link>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Weather - Dashboard</title>
 </head>
+
 <body>
+    <header class="banner">Weather Dashboard</header>
+    <main>
+        <div class="searchContainer">
+            <aside id="search">
+                <form>
+                    <h1>Search for a City:</h1>
+                    <input type="search" placeholder="San Diego" autocomplete="on">
+                    <button type="submit" class="search">Search</button>
+                    
+                </form>
+                <hr>
+                <button type="button" class="city 0">Atlanta</button>
+               
+                <button type="button" class="clear">Clear List</button>
+            </aside>
+        </div>
+        <div class="currentCityContainer">
+            <div id="townData">
+                <div id="time"><h1 id="currentTown">Town Here</h1><span id="emoji">(Emoji here)</span>(Todays Date here)</div>
+                <ul id="status">
+                    <li id="temp">1234</li>
+                    <li id="wind">1234</li>
+                    <li id="humidity">1234</li>
+                </ul>
+            </div>
+            <div class="forecast">
+                <h2 id="5-day-forecast">5-Day Forecast:</h2>
+                <div id="daysContainer">
+                    <div class="days"><a id="day1"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
+                    <div class="days"><a id="day2"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
+                    <div class="days"><a id="day3"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
+                    <div class="days"><a id="day4"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
+                    <div class="days"><a id="day5"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+ 
+
 <script src="./assets/script.js"></script>
 </body>
 </html>

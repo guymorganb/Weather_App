@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+
+}
+body{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.banner{
+    background: linear-gradient(rgb(126, 100, 98) 0%, #0D598B 100%);
+    text-align:center;
+    padding: 5px;
+    margin: 2px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.searchContainer{
+    display: flex;
+}
+form{
+    display: grid;
+}
+
+#search{
+    display: flex;
+    padding: 4px;
+    flex-direction: column;
+}
+
+input{
+    background-color: rgba(251, 243, 232, 0.766);
+    height:25px;
+    border: 0.5px solid gray;
+    border-radius: 40px/200px;
+}
+
+.search{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 5px 0 5px 0;
+    border: none;
+}
+
+.search:hover{
+    background-color: blue;
+}
+
+.city{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0 5px 0;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: lightgray; 
+}
+.clear{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 5px 0 5px 0;
+    border: none;
+    
+}
+
+.city:hover{
+    background-color: gray;
+}
+
+.currentCityContainer{
+    padding-left: 10px;
+}
+
+#townData{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 75vw;
+    margin-bottom: 5px;
+}
+#time{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+#emoji{
+    padding:5px;
+}
+#currentTown{
+    padding:5px;
+}
+#status{
+    list-style: none; 
+    padding: 5px 0 15px 3px;
+}
+#status li{
+    padding: 5px 0 5px 0;
+}
+.forecast{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#daysContainer{
+    padding: 5px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.days{
+    border: 1px solid gray;
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 620px){
+    body{
+        border: none;
+        
+    }
+    #townData{
+        border:none;
+       
+    }
+}
