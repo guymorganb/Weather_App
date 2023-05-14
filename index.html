@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles.css"></link>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/utc.js"></script>
+    <script>dayjs.extend(window.dayjs_plugin_utc)</script>
     <title>Weather - Dashboard</title>
 </head>
 
@@ -21,28 +27,20 @@
                     
                 </form>
                 <hr>
-                <button type="button" class="city 0">Atlanta</button>
-               
+                       <!-- append search results from local storage --> 
+                      
+                
                 <button type="button" class="clear">Clear List</button>
             </aside>
         </div>
         <div class="currentCityContainer">
             <div id="townData">
-                <div id="time"><h1 id="currentTown">Town Here</h1><span id="emoji">(Emoji here)</span>(Todays Date here)</div>
-                <ul id="status">
-                    <li id="temp">1234</li>
-                    <li id="wind">1234</li>
-                    <li id="humidity">1234</li>
-                </ul>
             </div>
             <div class="forecast">
                 <h2 id="5-day-forecast">5-Day Forecast:</h2>
                 <div id="daysContainer">
-                    <div class="days"><a id="day1"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
-                    <div class="days"><a id="day2"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
-                    <div class="days"><a id="day3"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
-                    <div class="days"><a id="day4"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
-                    <div class="days"><a id="day5"><img src="./assets/ComingSoon.jpeg" height="145px"></a></div>
+                    <!-- append futurecast here -->
+                         
                 </div>
             </div>
         </div>
@@ -50,6 +48,6 @@
 
  
 
-<script src="./assets/script.js"></script>
+<script src="./assets/test.js"></script>
 </body>
 </html>
