@@ -5,8 +5,11 @@
 
 }
 body{
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 5px;
+    background-color: rgb(237, 235, 233);
+    height: fit-content;
+    width: fit-content;
 }
 
 .banner{
@@ -14,6 +17,7 @@ body{
     text-align:center;
     padding: 5px;
     margin: 2px;
+   
     
 }
 
@@ -99,11 +103,16 @@ input{
     border-radius: 5px;
     width: 75vw;
     margin-bottom: 5px;
+    background:linear-gradient(rgb(126, 100, 98) 0%, #0D598B 100%);
 }
 #time{
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
+}
+#date{
+    color: beige;  
+
 }
 #emoji{
     padding:5px;
@@ -112,11 +121,17 @@ input{
     padding:5px;
 }
 #status{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     list-style: none; 
-    padding: 5px 0 15px 3px;
+    padding: 5px 10px 15px 3px;
+    align-items: left;
 }
 #status li{
-    padding: 5px 0 5px 0;
+    padding: 5px 5px 5px 5px; 
+    color: beige;  
+    font-size: small;
 }
 .forecast{
     display: flex;
@@ -124,18 +139,28 @@ input{
     flex-wrap: wrap;
 }
 #daysContainer{
-    padding: 5px 0 0 0;
+    padding: 5px 0px 5px 0;
     display: flex;
-    justify-content: space-evenly;
+    
     flex-direction: row;
     flex-wrap: wrap;
 }
+h3{
+    max-width: fit-content;
+    color:black
+}
 .days{
-    border: 1px solid gray;
-    display: flex;
+    border: none;
+    display: grid;
     height: fit-content;
     flex-wrap: wrap;
+    background:linear-gradient(rgb(126, 100, 98) 0%, #0D598B 100%);
+    border-radius: 40px/60px;
+    
+    
 }
+
+
 @media screen and (max-width: 620px){
     body{
         border: none;
