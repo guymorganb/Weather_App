@@ -8,7 +8,7 @@
 
 - This project solves the problem of needing to demonstrate the ability to use JavaScript to dynamically update and manage the page dynamically use 3rd party API data and presenting that information usefully.
 
-- I was able to expand my knowleged of JavaScript after having been coding for only 5 months, Ive been learning how it can be applied to the working needs of a user. I was also able to understand the level of detail that goes into even something this simple.
+- I was able to expand my knowleged of JavaScript, Ive been learning how it can be applied to the working needs of a user. I was also able to understand the level of detail that goes into even something this simple.
 
 ![step 1](https://github.com/guymorganb/Weather_App/blob/main/assets/Screenshot%202023-05-18%20at%2010.38.17%20AM.png?raw=true)
 
@@ -36,7 +36,7 @@ This webpage can be navigated to and acessed with a browser or mobile device. It
 
 4) To remove a single entry, click the red box next to the City which was searched. To remove all entries, click clear list to remove all entries at once.
 
-5) To view a past entry from the list, click the gray box (clicking the red box will populate the the dat but will also delete the single entry).
+5) To view a past entry from the list, click the gray box (clicking the red box will populate the data but will also delete the single entry).
 
 6) Data is dynamically populated to show in the proper feilds, and dynamically removed.
 
