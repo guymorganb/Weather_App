@@ -10,7 +10,7 @@
 
 - I was able to expand my knowleged of JavaScript after having been coding for only 5 months, Ive been learning how it can be applied to the working needs of a user. I was also able to understand the level of detail that goes into even something this simple.
 
-![step 1](https://github.com/guymorganb/Workday_App/blob/main/Assets/Screenshot.png?raw=true)
+![step 1](https://github.com/guymorganb/Weather_App/blob/main/assets/Screenshot%202023-05-18%20at%2010.38.17%20AM.png?raw=true)
 
 ## Table of Contents (N/A)
 - [Installation](#installation)
